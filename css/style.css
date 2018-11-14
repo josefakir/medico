@@ -3,63 +3,83 @@ header{padding:10px 0}
 #menu{font-family: 'Nunito', sans-serif; list-style: none; padding: 0; float: right;}
 #menu li{float: left; margin-left: 70px}
 #menu li a{color: #1f2c59; font-weight: bold; border-left: 3px solid #ff1170;  padding-left: 5px; display: block}
-#carruselhome{
-	background: #1f2c59;
-	color: #fff;
-	font-family: 'Open Sans', sans-serif; padding: 50px 0 30px 0;
-	float: left;
-	width: 100%
-}
+#carruselhome{background: #1f2c59;color: #fff;font-family: 'Open Sans', sans-serif; padding: 50px 0 30px 0;float: left;width: 100%}
 #carruselhome h2{font-weight: bold; margin-top: 50px;}
+h2{font-weight: bold}
 div.separador_titulo{border-bottom:3px solid #ff1170; width: 70px;margin-bottom: 50px}
-.img_carrusel {
-    width: 70%;
-    max-height: 400px;
-    position: absolute;
-    top: 100px;
-    right: 0;
-}
+.img_carrusel {width: 70%;max-height: 400px;position: absolute;top: 100px;right: 0;}
 .img_carrusel img{width: 100%}
-.txt_carrusel{
-	width: 50%;
-	top: 0;
-	left: 0; 
-	position: absolute;
-	min-height: 400px;
-	z-index: 2;
-	font-size: 14px
-}
+.txt_carrusel{width: 50%;top: 0;left: 0; position: absolute;min-height: 400px;z-index: 2;font-size: 14px}
 .item{min-height: 400px;position: relative;}
 .vermas{color: #ff1170; font-weight: bold}
-
-.owl-dot span {
-    width: 10px;
-    height: 10px;
-    background: #46c6f3;
-    display: block;
-    margin: 0 5px;
-    outline: none;
-    border-radius: 10px
-}
-.owl-dot.active span{
-	background: #ff1170
-}
-button.owl-dot{
-	outline: none
-}
+.owl-dot span {width: 10px;height: 10px;background: #46c6f3;display: block;margin: 0 5px;outline: none;border-radius: 10px}
+.owl-dot.active span{background: #ff1170}
+.owl-dot span:hover{opacity: 0.5}
+button.owl-dot{outline: none}
 .owl-dots{text-align: center; margin-top: 20px}
-.boton{
-	    width: 150px;
-    display: block;
-    background: #ff1170;
-    color: #fff;
-    border-radius: 30px;
-    text-align: center;
-    text-decoration: none;
-    padding: 5px;
-}
+.boton{width: 150px;display: block;background: #ff1170;color: #fff;border-radius: 30px;text-align: center;text-decoration: none;padding: 5px;}
 .boton:hover{text-decoration: none; opacity: 0.9; color: #fff}
 .fr{float: right}
 .modulo{margin: 40px 0; float: left; width: 100%}
 .num_servicio{font-size: 40px; color: #65b6e4; font-weight: bold;font-family: 'Nunito'; float: left;display: block}
 .servicio img{float: left;display: block}
+.servicio h2{ color: #1f2c59; font-size: 20px; margin-top: 20px }
+.servicio p{color: #2e2e2e}
+#historias{background: #46c6f3; padding: 40px 0; margin-bottom: 0}
+#historias h2{color: #fff}
+#historias .owl-dot span {width: 100px;background: #fff;}
+#historias .owl-dot span:hover{opacity: 0.5}
+.historia{color: #fff}
+.historia .w20{width: 20% ; float: left;}
+.historia .w70{width: 70% ; float: left;padding-left: 10%}
+img.thumb_usuario {width: 50%;height: 50%;border-radius: 50%;}
+.tac{text-align: center;}
+.m0auto{margin: 0 auto}
+footer{background: #1f2c59; color: #fff; padding: 40px 0;font-family: 'Open Sans'; font-weight: 300;padding-bottom: 50px}
+footer a{color: #fff; text-decoration: none;}
+.campo{background: none; border: none; border-bottom: 1px solid #fff; width: 100%; outline: none; color: #fff; height: 20px; padding:25px 5px; display: block}
+textarea.campo{height: 80px}
+.campo::placeholder {color: #fff;opacity: 1;}
+.campo:-ms-input-placeholder {color: #fff;}
+.campo::-ms-input-placeholder {color: #fff;}
+.menu_footer{list-style: none; padding: 0; margin-top: 50px}
+.menu_footer li{float: left; width: 13vw; font-size: 12px}
+.menu_footer li a:hover{color: #fff}
+.contacto li {line-height: 30px;font-size: 12px;}
+#menu_sticky{width: 100%;background: #ff1170;position: fixed;bottom: 0;left: 0;z-index: 9; padding: 5px 0}
+#menu_sticky ul{list-style: none;padding: 0}
+#menu_sticky ul li{float: left;width: 25vw;text-align: center;}
+#menu_sticky ul li a{color: #fff;text-decoration: none}
+#menu_sticky ul li a span{font-size: 10px;display: block}
+#menu_sticky i{display: block;}
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        #menu{display: none}
+        #logo{float: none;margin: 10px auto;display: block;text-align: center;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .servicio{text-align: center;}
+        span.num_servicio {width: 100%;text-align: center;}
+        .servicio img {float: none;margin: 0 auto;}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+
+    }
+
+
+
+
