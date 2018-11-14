@@ -1,0 +1,65 @@
+header{padding:10px 0}
+#logo{float: left;}
+#menu{font-family: 'Nunito', sans-serif; list-style: none; padding: 0; float: right;}
+#menu li{float: left; margin-left: 70px}
+#menu li a{color: #1f2c59; font-weight: bold; border-left: 3px solid #ff1170;  padding-left: 5px; display: block}
+#carruselhome{
+	background: #1f2c59;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif; padding: 50px 0 30px 0;
+	float: left;
+	width: 100%
+}
+#carruselhome h2{font-weight: bold; margin-top: 50px;}
+div.separador_titulo{border-bottom:3px solid #ff1170; width: 70px;margin-bottom: 50px}
+.img_carrusel {
+    width: 70%;
+    max-height: 400px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.img_carrusel img{width: 100%}
+.txt_carrusel{
+	width: 50%;
+	top: 0;
+	left: 0; 
+	position: absolute;
+	min-height: 400px;
+	z-index: 2;
+	font-size: 14px
+}
+.item{min-height: 400px;position: relative;}
+.vermas{color: #ff1170; font-weight: bold}
+
+.owl-dot span {
+    width: 10px;
+    height: 10px;
+    background: #46c6f3;
+    display: block;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 10px
+}
+.owl-dot.active span{
+	background: #ff1170
+}
+button.owl-dot{
+	outline: none
+}
+.owl-dots{text-align: center; margin-top: 20px}
+.boton{
+	    width: 150px;
+    display: block;
+    background: #ff1170;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+.boton:hover{text-decoration: none; opacity: 0.9; color: #fff}
+.fr{float: right}
+.modulo{margin: 40px 0; float: left; width: 100%}
+.num_servicio{font-size: 40px; color: #65b6e4; font-weight: bold;font-family: 'Nunito'; float: left;display: block}
+.servicio img{float: left;display: block}
