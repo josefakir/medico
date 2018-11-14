@@ -46,7 +46,7 @@ textarea.campo{height: 80px}
 .menu_footer li{float: left; width: 13vw; font-size: 12px}
 .menu_footer li a:hover{color: #fff}
 .contacto li {line-height: 30px;font-size: 12px;}
-#menu_sticky{width: 100%;background: #ff1170;position: fixed;bottom: 0;left: 0;z-index: 9; padding: 5px 0}
+#menu_sticky{width: 100%;background: #ff1170;position: fixed;bottom: 0;left: 0;z-index: 9; padding: 5px 0;display: none}
 #menu_sticky ul{list-style: none;padding: 0}
 #menu_sticky ul li{float: left;width: 25vw;text-align: center;}
 #menu_sticky ul li a{color: #fff;text-decoration: none}
@@ -60,6 +60,7 @@ textarea.campo{height: 80px}
     /* Medium Devices, Desktops */
     @media only screen and (max-width : 992px) {
         #menu{display: none}
+        #menu_sticky{display: block}
         #logo{float: none;margin: 10px auto;display: block;text-align: center;}
     }
 
